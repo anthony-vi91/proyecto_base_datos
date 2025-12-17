@@ -1,7 +1,7 @@
-create schema veterinaria
+create schema avite
 
 --   TABLA CLIENTES
-CREATE TABLE veterinaria.clientes (
+CREATE TABLE avite.clientes (
     id_cliente serial PRIMARY KEY,
     nombre VARCHAR(50)NOT NULL,
     tipo_identificacion VARCHAR(10) NOT NULL CHECK (tipo_identificacion IN ('CEDULA', 'RUC', 'PASAPORTE')),
@@ -17,7 +17,7 @@ CREATE TABLE veterinaria.clientes (
 
 
 --   TABLA MASCOTAS
-CREATE TABLE veterinaria.mascotas (
+CREATE TABLE avite.mascotas (
     id_mascota serial PRIMARY KEY,
     id_cliente INT,
     nombre VARCHAR(50) not null,
@@ -26,14 +26,14 @@ CREATE TABLE veterinaria.mascotas (
     sexo VARCHAR(10) not null,
     fecha_nacimiento DATE,
     alergias TEXT,
-    FOREIGN KEY (id_cliente) REFERENCES veterinaria.clientes(id_cliente),
+    FOREIGN KEY (id_cliente) REFERENCES avite.clientes(id_cliente),
     activo BOOLEAN DEFAULT TRUE,
     fecha_registro DATE DEFAULT CURRENT_DATE,
     fecha_actualizado_en TIMESTAMP
 );
 
 --   TABLA CITAS
-CREATE TABLE veterinaria.citas (
+CREATE TABLE avite.citas (
     id_cita SERIAL PRIMARY KEY,
     id_mascota INT NOT NULL,
     fecha_cita TIMESTAMP NOT NULL,
@@ -45,12 +45,12 @@ CREATE TABLE veterinaria.citas (
     fecha_actualizado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT fk_mascota
         FOREIGN KEY (id_mascota)
-        REFERENCES veterinaria.mascotas(id_mascota)
+        REFERENCES avite.mascotas(id_mascota)
 );
 
 
 --   TABLA PROVEEDORES
-CREATE TABLE veterinaria.proveedores (
+CREATE TABLE avite.proveedores (
     id_proveedor serial PRIMARY KEY,
     nombre VARCHAR(100) not null,
     telefono VARCHAR(20) not null,
@@ -64,7 +64,7 @@ CREATE TABLE veterinaria.proveedores (
 
 
 --   TABLA PRODUCTOS
-CREATE TABLE veterinaria.productos (
+CREATE TABLE avite.productos (
     id_producto serial PRIMARY KEY,
     nombre VARCHAR(100) not null,
     descripcion TEXT,
@@ -77,7 +77,7 @@ CREATE TABLE veterinaria.productos (
 
 
 --   TABLA INVENTARIO
-CREATE TABLE veterinaria.inventario (
+CREATE TABLE avite.inventario (
     id_inventario serial PRIMARY KEY,
     id_producto INT,
     id_proveedor INT,
@@ -85,14 +85,14 @@ CREATE TABLE veterinaria.inventario (
     activo BOOLEAN DEFAULT TRUE,
     fecha_registro DATE DEFAULT CURRENT_DATE,
     fecha_actualizado_en TIMESTAMP default current_timestamp,
-    FOREIGN KEY (id_producto) REFERENCES veterinaria.productos(id_producto),
-    FOREIGN KEY (id_proveedor) REFERENCES veterinaria.proveedores(id_proveedor)
+    FOREIGN KEY (id_producto) REFERENCES avite.productos(id_producto),
+    FOREIGN KEY (id_proveedor) REFERENCES avite.proveedores(id_proveedor)
 );
 
 
 --   TABLA VENTAS
-CREATE TABLE veterinaria.ventas (
-    id_venta serial PRIMARY KEY,
+CREATE TABLE avite.factura (
+    id_factura serial PRIMARY KEY,
     id_cliente INT NOT NULL,
     fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     metodo_pago VARCHAR(20) NOT NULL CHECK (metodo_pago IN ('EFECTIVO', 'DEPOSITO', 'TARJETA')),
@@ -102,12 +102,12 @@ CREATE TABLE veterinaria.ventas (
     activo BOOLEAN DEFAULT TRUE,
     fecha_registro DATE DEFAULT CURRENT_DATE,
     fecha_actualizado_en TIMESTAMP default current_timestamp,
-    FOREIGN KEY (id_cliente) REFERENCES veterinaria.clientes(id_cliente)
+    FOREIGN KEY (id_cliente) REFERENCES avite.clientes(id_cliente)
 );
 
 
 --   TABLA DETALLE FACTURA
-CREATE TABLE veterinaria.detalle_Factura (
+CREATE TABLE avite.detalle_Factura (
     id_detalle SERIAL PRIMARY KEY,
     id_factura INT NOT NULL,
     id_producto INT NOT NULL,
@@ -117,6 +117,6 @@ CREATE TABLE veterinaria.detalle_Factura (
    activo BOOLEAN DEFAULT TRUE,
     creado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
    actualizado_en TIMESTAMP,
-    FOREIGN KEY (id_factura) REFERENCES veterinaria.ventas(id_venta),
-    FOREIGN KEY (id_producto) REFERENCES veterinaria.productos(id_producto)
+    FOREIGN KEY (id_factura) REFERENCES avite.factura(id_factura),
+    FOREIGN KEY (id_producto) REFERENCES avite.productos(id_producto)
 );
