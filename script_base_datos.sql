@@ -33,86 +33,90 @@ CREATE TABLE veterinaria.mascotas (
 );
 
 --   TABLA CITAS
-CREATE TABLE citas (
-    id_cita serial PRIMARY KEY,
-    id_mascota INT not null,
-    fecha_cita DATETIME,
-    motivo TEXT not null,
-    diagnostico TEXT not null,
+CREATE TABLE veterinaria.citas (
+    id_cita SERIAL PRIMARY KEY,
+    id_mascota INT NOT NULL,
+    fecha_cita TIMESTAMP NOT NULL,
+    motivo TEXT NOT NULL,
+    diagnostico TEXT NOT NULL,
     estado VARCHAR(20),
     activo BOOLEAN DEFAULT TRUE,
     fecha_registro DATE DEFAULT CURRENT_DATE,
-    fecha_actualizado_en TIMESTAMP,
-    FOREIGN KEY (id_mascota) REFERENCES veterinaria.mascotas(id_mascota)
+    fecha_actualizado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT fk_mascota
+        FOREIGN KEY (id_mascota)
+        REFERENCES veterinaria.mascotas(id_mascota)
 );
 
 
 --   TABLA PROVEEDORES
-CREATE TABLE proveedores (
-    id_proveedor INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(100),
-    telefono VARCHAR(20),
-    email VARCHAR(100),
-    direccion VARCHAR(150),
-    ruc VARCHAR(20),
+CREATE TABLE veterinaria.proveedores (
+    id_proveedor serial PRIMARY KEY,
+    nombre VARCHAR(100) not null,
+    telefono VARCHAR(20) not null,
+    email VARCHAR(100) not null,
+    direccion VARCHAR(150) not null,
+    ruc VARCHAR(20) not null,
     activo BOOLEAN DEFAULT TRUE,
-    fecha_registro DATE DEFAULT CURRENT_DATE
-    fecha_actualizado_en TIMESTAMP
+    fecha_registro DATE DEFAULT CURRENT_DATE,
+    fecha_actualizado_en TIMESTAMP default current_timestamp
 );
 
 
 --   TABLA PRODUCTOS
-CREATE TABLE productos (
-    id_producto INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(100),
+CREATE TABLE veterinaria.productos (
+    id_producto serial PRIMARY KEY,
+    nombre VARCHAR(100) not null,
     descripcion TEXT,
     categoria VARCHAR(50),
-    precio_venta DECIMAL(10,2),
+    precio_venta DECIMAL(10,2) not null,
     activo BOOLEAN DEFAULT TRUE,
-    fecha_registro DATE DEFAULT CURRENT_DATE
-    fecha_actualizado_en TIMESTAMP
+    fecha_registro DATE DEFAULT CURRENT_DATE,
+    fecha_actualizado_en timestamp default current_TIMESTAMP
 );
 
 
 --   TABLA INVENTARIO
-CREATE TABLE inventario (
-    id_inventario INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE veterinaria.inventario (
+    id_inventario serial PRIMARY KEY,
     id_producto INT,
     id_proveedor INT,
     stock_actual INT,
-    fecha_actualizacion DATE,
     activo BOOLEAN DEFAULT TRUE,
-    fecha_registro DATE DEFAULT CURRENT_DATE
-    fecha_actualizado_en TIMESTAMP,
-    FOREIGN KEY (id_producto) REFERENCES productos(id_producto),
-    FOREIGN KEY (id_proveedor) REFERENCES proveedores(id_proveedor)
+    fecha_registro DATE DEFAULT CURRENT_DATE,
+    fecha_actualizado_en TIMESTAMP default current_timestamp,
+    FOREIGN KEY (id_producto) REFERENCES veterinaria.productos(id_producto),
+    FOREIGN KEY (id_proveedor) REFERENCES veterinaria.proveedores(id_proveedor)
 );
 
 
 --   TABLA VENTAS
-CREATE TABLE ventas (
-    id_venta INT AUTO_INCREMENT PRIMARY KEY,
-    id_cliente INT,
-    fecha_venta DATE,
-    total DECIMAL(10,2),
-    metodo_pago VARCHAR(20),
+CREATE TABLE veterinaria.ventas (
+    id_venta serial PRIMARY KEY,
+    id_cliente INT NOT NULL,
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    metodo_pago VARCHAR(20) NOT NULL CHECK (metodo_pago IN ('EFECTIVO', 'DEPOSITO', 'TARJETA')),
+    subtotal DECIMAL(10, 2) NOT NULL CHECK (subtotal >= 0),
+    impuesto DECIMAL(10, 2) DEFAULT 0 CHECK (impuesto >= 0),
+    total DECIMAL(10, 2) NOT NULL CHECK (total >= 0),
     activo BOOLEAN DEFAULT TRUE,
-    fecha_registro DATE DEFAULT CURRENT_DATE
-    fecha_actualizado_en TIMESTAMP,
-    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente)
+    fecha_registro DATE DEFAULT CURRENT_DATE,
+    fecha_actualizado_en TIMESTAMP default current_timestamp,
+    FOREIGN KEY (id_cliente) REFERENCES veterinaria.clientes(id_cliente)
 );
 
 
 --   TABLA DETALLE FACTURA
-CREATE TABLE detalle_factura (
-    id_detalle INT AUTO_INCREMENT PRIMARY KEY,
-    id_venta INT,
-    id_producto INT,
-    cantidad INT,
-    subtotal DECIMAL(10,2),
-    activo BOOLEAN DEFAULT TRUE,
-    fecha_registro DATE DEFAULT CURRENT_DATE
-    fecha_actualizado_en TIMESTAMP,
-    FOREIGN KEY (id_venta) REFERENCES ventas(id_venta),
-    FOREIGN KEY (id_producto) REFERENCES productos(id_producto)
+CREATE TABLE veterinaria.detalle_Factura (
+    id_detalle SERIAL PRIMARY KEY,
+    id_factura INT NOT NULL,
+    id_producto INT NOT NULL,
+    cantidad INT NOT NULL CHECK (cantidad > 0),
+    precio_unitario DECIMAL(10, 2) NOT NULL CHECK (precio_unitario >= 0),
+    subtotal_linea DECIMAL(10, 2) NOT NULL CHECK (subtotal_linea >= 0),
+   activo BOOLEAN DEFAULT TRUE,
+    creado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+   actualizado_en TIMESTAMP,
+    FOREIGN KEY (id_factura) REFERENCES veterinaria.ventas(id_venta),
+    FOREIGN KEY (id_producto) REFERENCES veterinaria.productos(id_producto)
 );
