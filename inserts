@@ -1,1 +1,2388 @@
+--inserts veterinaria
+--insert cliente 
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Juan Pérez', 'CEDULA', '0102030405', '0991234567', 'juan.perez@gmail.com', 'Av. 9 de Octubre 123, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('María López', 'CEDULA', '1102233445', '0987654321', 'maria.lopez@yahoo.com', 'Calle Bolívar 456, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Carlos Andrade', 'RUC', '1790012345001', '022345678', 'carlos.andrade@empresa.com', 'Av. Amazonas 789, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Ana Torres', 'PASAPORTE', 'AB1234567', '0998765432', 'ana.torres@hotmail.com', 'Malecón 2000, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Luis Martínez', 'CEDULA', '0801122334', '0976543210', 'luis.martinez@gmail.com', 'Av. Kennedy 321, Cuenca', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Sofía Herrera', 'RUC', '0998765432001', '042345678', 'sofia.herrera@negocios.ec', 'Calle Sucre 654, Loja', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Pedro Ramírez', 'PASAPORTE', 'CD9876543', '0965432109', 'pedro.ramirez@gmail.com', 'Av. Machala 432, Machala', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Gabriela Castro', 'CEDULA', '1203344556', '0954321098', 'gabriela.castro@gmail.com', 'Av. Universitaria 876, Ambato', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Ricardo Molina', 'RUC', '1790098765001', '023456789', 'ricardo.molina@empresa.com', 'Av. América 543, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Fernanda Ríos', 'PASAPORTE', 'EF7654321', '0943210987', 'fernanda.rios@gmail.com', 'Av. Olmedo 765, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Andrés Salazar', 'CEDULA', '1304455667', '0991112233', 'andres.salazar@gmail.com', 'Av. República 321, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Paola Vega', 'RUC', '1790023456001', '022987654', 'paola.vega@empresa.com', 'Av. Colón 654, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Diego Cedeño', 'PASAPORTE', 'GH1239874', '0992223344', 'diego.cedeno@gmail.com', 'Av. Malecon 123, Esmeraldas', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Mónica Paredes', 'CEDULA', '1405566778', '0983334455', 'monica.paredes@hotmail.com', 'Av. Universitaria 456, Riobamba', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Esteban Flores', 'RUC', '1790034567001', '022123456', 'esteban.flores@empresa.com', 'Av. Mariana de Jesús 789, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Claudia Jiménez', 'PASAPORTE', 'IJ8765432', '0994445566', 'claudia.jimenez@gmail.com', 'Av. 12 de Octubre 654, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Roberto Sánchez', 'CEDULA', '1506677889', '0975556677', 'roberto.sanchez@gmail.com', 'Av. Amazonas 321, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Patricia León', 'RUC', '1790045678001', '022765432', 'patricia.leon@empresa.com', 'Av. República 987, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Jorge Cabrera', 'PASAPORTE', 'KL6543210', '0996667788', 'jorge.cabrera@gmail.com', 'Av. Machala 876, Machala', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Verónica Ortiz', 'CEDULA', '1607788990', '0987778899', 'veronica.ortiz@gmail.com', 'Av. Olmedo 543, Guayaquil', TRUE, NOW());
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Daniela Muñoz', 'RUC', '1790056789001', '022654321', 'daniela.munoz@empresa.com', 'Av. Naciones Unidas 123, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Felipe Guerrero', 'PASAPORTE', 'MN5432109', '0998889990', 'felipe.guerrero@gmail.com', 'Av. 10 de Agosto 456, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Carolina Espinoza', 'CEDULA', '1708899001', '0989990001', 'carolina.espinoza@hotmail.com', 'Av. América 789, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Mauricio Ponce', 'RUC', '1790067890001', '022111222', 'mauricio.ponce@empresa.com', 'Av. República 654, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Natalia Reyes', 'PASAPORTE', 'OP9876543', '0990001112', 'natalia.reyes@gmail.com', 'Av. Olmedo 321, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Hernán Villalba', 'CEDULA', '1809900112', '0971112223', 'hernan.villalba@gmail.com', 'Av. Kennedy 876, Cuenca', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Andrea Zambrano', 'RUC', '1790078900001', '022333444', 'andrea.zambrano@empresa.com', 'Av. Amazonas 543, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Francisco Cárdenas', 'PASAPORTE', 'QR1234567', '0992223334', 'francisco.cardenas@gmail.com', 'Av. Colón 765, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Lucía Delgado', 'CEDULA', '1901122334', '0983334445', 'lucia.delgado@gmail.com', 'Av. Sucre 987, Loja', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Miguel Bravo', 'RUC', '1790089012001', '022555666', 'miguel.bravo@empresa.com', 'Av. Mariana de Jesús 432, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Patricia Aguirre', 'PASAPORTE', 'ST7654321', '0994445556', 'patricia.aguirre@gmail.com', 'Av. Machala 654, Machala', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('José Herrera', 'CEDULA', '2002233445', '0975556667', 'jose.herrera@gmail.com', 'Av. Universitaria 321, Ambato', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Camila Ortiz', 'RUC', '1790090123001', '022777888', 'camila.ortiz@empresa.com', 'Av. América 876, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Rodrigo Medina', 'PASAPORTE', 'UV6543210', '0996667778', 'rodrigo.medina@gmail.com', 'Av. Olmedo 543, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Valeria Sánchez', 'CEDULA', '2103344556', '0987778889', 'valeria.sanchez@gmail.com', 'Av. 9 de Octubre 765, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Sebastián Lara', 'RUC', '1790101234001', '022999000', 'sebastian.lara@empresa.com', 'Av. República 543, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Isabel Molina', 'PASAPORTE', 'WX9876543', '0998889991', 'isabel.molina@gmail.com', 'Av. Colón 876, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Fernando Rivas', 'CEDULA', '2204455667', '0979990002', 'fernando.rivas@gmail.com', 'Av. Sucre 654, Loja', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Paula Jiménez', 'RUC', '1790112345001', '022111333', 'paula.jimenez@empresa.com', 'Av. Mariana de Jesús 765, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Álvaro Torres', 'PASAPORTE', 'YZ1234567', '0991112224', 'alvaro.torres@gmail.com', 'Av. Machala 987, Machala', TRUE, NOW());
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Marcos Peña', 'CEDULA', '2305566778', '0992223345', 'marcos.pena@gmail.com', 'Av. 12 de Octubre 123, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Silvia Romero', 'RUC', '1790123456001', '022444555', 'silvia.romero@empresa.com', 'Av. Amazonas 456, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Hugo Vargas', 'PASAPORTE', 'AA9876543', '0993334456', 'hugo.vargas@gmail.com', 'Av. Machala 789, Machala', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Lorena Castillo', 'CEDULA', '2406677889', '0984445567', 'lorena.castillo@hotmail.com', 'Av. Colón 321, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Cristian Mejía', 'RUC', '1790134567001', '022666777', 'cristian.mejia@empresa.com', 'Av. República 654, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Tatiana López', 'PASAPORTE', 'BB1234567', '0995556678', 'tatiana.lopez@gmail.com', 'Av. Olmedo 876, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Eduardo Molina', 'CEDULA', '2507788990', '0976667789', 'eduardo.molina@gmail.com', 'Av. Sucre 543, Loja', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Rosa Fernández', 'RUC', '1790145678001', '022888999', 'rosa.fernandez@empresa.com', 'Av. Mariana de Jesús 987, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Martín Cabrera', 'PASAPORTE', 'CC7654321', '0997778890', 'martin.cabrera@gmail.com', 'Av. Kennedy 765, Cuenca', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Paola Sánchez', 'CEDULA', '2608899001', '0988889901', 'paola.sanchez@gmail.com', 'Av. América 654, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Javier Torres', 'RUC', '1790156789001', '022111444', 'javier.torres@empresa.com', 'Av. Colón 432, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Martha Ríos', 'PASAPORTE', 'DD6543210', '0999990002', 'martha.rios@gmail.com', 'Av. Machala 543, Machala', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Gustavo Herrera', 'CEDULA', '2709900112', '0970001113', 'gustavo.herrera@gmail.com', 'Av. Universitaria 876, Ambato', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Carla Jiménez', 'RUC', '1790167890001', '022555111', 'carla.jimenez@empresa.com', 'Av. Mariana de Jesús 321, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Diego Salazar', 'PASAPORTE', 'EE9876543', '0991112234', 'diego.salazar@gmail.com', 'Av. Olmedo 654, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Patricia Vega', 'CEDULA', '2801122334', '0982223345', 'patricia.vega@gmail.com', 'Av. Sucre 765, Loja', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Roberto León', 'RUC', '1790178900001', '022333555', 'roberto.leon@empresa.com', 'Av. América 987, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Andrea Castro', 'PASAPORTE', 'FF1239874', '0993334457', 'andrea.castro@gmail.com', 'Av. Colón 876, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Luis Ramírez', 'CEDULA', '2902233445', '0974445568', 'luis.ramirez@gmail.com', 'Av. Machala 321, Machala', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Gabriela Torres', 'RUC', '1790189012001', '022777999', 'gabriela.torres@empresa.com', 'Av. República 765, Quito', TRUE, NOW());
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Santiago Pérez', 'CEDULA', '3003344556', '0991112235', 'santiago.perez@gmail.com', 'Av. 9 de Octubre 654, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('María Fernanda Ruiz', 'RUC', '1790190123001', '022222333', 'maria.ruiz@empresa.com', 'Av. Colón 876, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('José Luis Vargas', 'PASAPORTE', 'GG9876543', '0992223346', 'jose.vargas@gmail.com', 'Av. Machala 765, Machala', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Camila Herrera', 'CEDULA', '3104455667', '0983334456', 'camila.herrera@gmail.com', 'Av. América 543, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Andrés Molina', 'RUC', '1790201234001', '022444666', 'andres.molina@empresa.com', 'Av. Mariana de Jesús 654, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Paola Ramírez', 'PASAPORTE', 'HH1234567', '0995556679', 'paola.ramirez@gmail.com', 'Av. Olmedo 432, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Carlos Jiménez', 'CEDULA', '3205566778', '0976667780', 'carlos.jimenez@gmail.com', 'Av. Sucre 876, Loja', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Tatiana Rivas', 'RUC', '1790212345001', '022555777', 'tatiana.rivas@empresa.com', 'Av. República 321, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Fernando López', 'PASAPORTE', 'II7654321', '0997778891', 'fernando.lopez@gmail.com', 'Av. Machala 987, Machala', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Gabriela Sánchez', 'CEDULA', '3306677889', '0988889902', 'gabriela.sanchez@gmail.com', 'Av. América 765, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Rodrigo Torres', 'RUC', '1790223456001', '022999111', 'rodrigo.torres@empresa.com', 'Av. Colón 543, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Isabel Medina', 'PASAPORTE', 'JJ6543210', '0999990003', 'isabel.medina@gmail.com', 'Av. Olmedo 876, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Mauricio Castro', 'CEDULA', '3407788990', '0970001114', 'mauricio.castro@gmail.com', 'Av. Sucre 654, Loja', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Carolina Vega', 'RUC', '1790234567001', '022111555', 'carolina.vega@empresa.com', 'Av. Mariana de Jesús 876, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Diego Molina', 'PASAPORTE', 'KK1239874', '0991112236', 'diego.molina@gmail.com', 'Av. Machala 654, Machala', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Patricia Herrera', 'CEDULA', '3508899001', '0982223346', 'patricia.herrera@gmail.com', 'Av. América 987, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Roberto Jiménez', 'RUC', '1790245678001', '022333666', 'roberto.jimenez@empresa.com', 'Av. República 432, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Andrea Torres', 'PASAPORTE', 'LL9876543', '0993334458', 'andrea.torres@gmail.com', 'Av. Colón 765, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Luis Sánchez', 'CEDULA', '3609900112', '0974445569', 'luis.sanchez@gmail.com', 'Av. Universitaria 543, Ambato', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Gabriela Ramírez', 'RUC', '1790256789001', '022777222', 'gabriela.ramirez@empresa.com', 'Av. Mariana de Jesús 654, Quito', TRUE, NOW());
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Esteban Rojas', 'CEDULA', '3701122334', '0991112237', 'esteban.rojas@gmail.com', 'Av. 9 de Octubre 876, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Mónica Pérez', 'RUC', '1790267890001', '022222444', 'monica.perez@empresa.com', 'Av. Colón 543, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Felipe Castro', 'PASAPORTE', 'MM9876543', '0992223347', 'felipe.castro@gmail.com', 'Av. Machala 654, Machala', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Carolina Herrera', 'CEDULA', '3802233445', '0983334457', 'carolina.herrera@gmail.com', 'Av. América 876, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Mauricio Vega', 'RUC', '1790278900001', '022444777', 'mauricio.vega@empresa.com', 'Av. Mariana de Jesús 543, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Natalia López', 'PASAPORTE', 'NN1234567', '0995556680', 'natalia.lopez@gmail.com', 'Av. Olmedo 765, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Hernán Jiménez', 'CEDULA', '3903344556', '0976667781', 'hernan.jimenez@gmail.com', 'Av. Sucre 987, Loja', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Tatiana Molina', 'RUC', '1790289012001', '022555888', 'tatiana.molina@empresa.com', 'Av. República 654, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Francisco Torres', 'PASAPORTE', 'OO7654321', '0997778892', 'francisco.torres@gmail.com', 'Av. Machala 876, Machala', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Lucía Ramírez', 'CEDULA', '4004455667', '0988889903', 'lucia.ramirez@gmail.com', 'Av. América 543, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Miguel Sánchez', 'RUC', '1790290123001', '022999222', 'miguel.sanchez@empresa.com', 'Av. Colón 765, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Patricia Medina', 'PASAPORTE', 'PP6543210', '0999990004', 'patricia.medina@gmail.com', 'Av. Olmedo 543, Guayaquil', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('José Cabrera', 'CEDULA', '4105566778', '0970001115', 'jose.cabrera@gmail.com', 'Av. Universitaria 765, Ambato', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Camila Ríos', 'RUC', '1790301234001', '022111666', 'camila.rios@empresa.com', 'Av. Mariana de Jesús 876, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Rodrigo Herrera', 'PASAPORTE', 'QQ1239874', '0991112238', 'rodrigo.herrera@gmail.com', 'Av. Machala 432, Machala', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Isabel Vega', 'CEDULA', '4206677889', '0982223347', 'isabel.vega@gmail.com', 'Av. América 654, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Fernando Jiménez', 'RUC', '1790312345001', '022333777', 'fernando.jimenez@empresa.com', 'Av. República 543, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Paola Torres', 'PASAPORTE', 'RR9876543', '0993334459', 'paola.torres@gmail.com', 'Av. Colón 876, Quito', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Luis Molina', 'CEDULA', '4307788990', '0974445570', 'luis.molina@gmail.com', 'Av. Sucre 321, Loja', TRUE, NOW());
+
+INSERT INTO avite.clientes (nombre, tipo_identificacion, identificacion, telefono, email, direccion, activo, creado_en)
+VALUES ('Gabriela Pérez', 'RUC', '1790323456001', '022777333', 'gabriela.perez@empresa.com', 'Av. Mariana de Jesús 765, Quito', TRUE, NOW());
+
+
+--inserts mascotas
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (1, 'Firulais', 'Perro', 'Labrador Retriever', 'Macho', '2020-05-12', 'Pollo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (2, 'Mishi', 'Gato', 'Siames', 'Hembra', '2021-03-08', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (3, 'Rocky', 'Perro', 'Pastor Alemán', 'Macho', '2019-11-20', 'Cereal', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (4, 'Luna', 'Gato', 'Persa', 'Hembra', '2022-01-15', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (5, 'Max', 'Perro', 'Golden Retriever', 'Macho', '2020-07-30', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (6, 'Kiara', 'Gato', 'Maine Coon', 'Hembra', '2018-09-05', 'Polvo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (7, 'Toby', 'Perro', 'Bulldog Inglés', 'Macho', '2021-04-22', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (8, 'Nala', 'Gato', 'Bengalí', 'Hembra', '2022-06-10', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (9, 'Zeus', 'Perro', 'Doberman', 'Macho', '2019-02-18', 'Pollo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (10, 'Coco', 'Ave', 'Periquito', 'Macho', '2021-12-01', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (11, 'Bella', 'Perro', 'Beagle', 'Hembra', '2020-08-25', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (12, 'Simba', 'Gato', 'Angora', 'Macho', '2019-10-12', 'Polvo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (13, 'Daisy', 'Perro', 'Poodle', 'Hembra', '2021-05-14', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (14, 'Thor', 'Perro', 'Husky Siberiano', 'Macho', '2020-02-28', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (15, 'Maya', 'Gato', 'Ragdoll', 'Hembra', '2022-07-19', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (16, 'Bruno', 'Perro', 'Boxer', 'Macho', '2018-11-11', 'Carne roja', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (17, 'Kira', 'Gato', 'Esfinge', 'Hembra', '2021-09-03', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (18, 'Leo', 'Perro', 'Chihuahua', 'Macho', '2022-03-21', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (19, 'Molly', 'Conejo', 'Cabeza de León', 'Hembra', '2021-06-07', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (20, 'Rex', 'Perro', 'Pitbull', 'Macho', '2019-01-30', 'Pollo', TRUE, CURRENT_DATE);
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (21, 'Bobby', 'Perro', 'Cocker Spaniel', 'Macho', '2020-09-14', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (22, 'Mimi', 'Gato', 'Siames', 'Hembra', '2021-02-11', 'Polvo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (23, 'Rambo', 'Perro', 'Rottweiler', 'Macho', '2019-07-25', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (24, 'Pelusa', 'Gato', 'Persa', 'Hembra', '2022-04-03', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (25, 'Lucky', 'Perro', 'Shih Tzu', 'Macho', '2020-06-18', 'Pollo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (26, 'Chispa', 'Ave', 'Canario', 'Hembra', '2021-08-09', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (27, 'Tango', 'Perro', 'Dálmata', 'Macho', '2019-05-22', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (28, 'Lola', 'Gato', 'Bengalí', 'Hembra', '2022-02-14', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (29, 'Apolo', 'Perro', 'Doberman', 'Macho', '2018-12-01', 'Carne roja', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (30, 'Paco', 'Ave', 'Loro Amazónico', 'Macho', '2020-11-11', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (31, 'Duna', 'Perro', 'Border Collie', 'Hembra', '2021-01-19', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (32, 'Tom', 'Gato', 'Angora', 'Macho', '2019-09-07', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (33, 'Chispi', 'Conejo', 'Cabeza de León', 'Hembra', '2021-05-05', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (34, 'Nico', 'Perro', 'Bulldog Francés', 'Macho', '2020-03-28', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (35, 'Mora', 'Gato', 'Ragdoll', 'Hembra', '2022-07-01', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (36, 'Spike', 'Perro', 'Boxer', 'Macho', '2018-10-10', 'Pollo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (37, 'Maggie', 'Gato', 'Esfinge', 'Hembra', '2021-09-09', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (38, 'Chester', 'Perro', 'Chihuahua', 'Macho', '2022-03-15', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (39, 'Blanca', 'Tortuga', 'Orejas Rojas', 'Hembra', '2017-06-20', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (40, 'Rambo', 'Perro', 'Pitbull', 'Macho', '2019-01-30', 'Pollo', TRUE, CURRENT_DATE);
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (41, 'Toby', 'Perro', 'Labrador Retriever', 'Macho', '2020-05-12', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (42, 'Misha', 'Gato', 'Siames', 'Hembra', '2021-03-08', 'Polvo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (43, 'Rex', 'Perro', 'Pastor Alemán', 'Macho', '2019-11-20', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (44, 'Luna', 'Gato', 'Persa', 'Hembra', '2022-01-15', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (45, 'Max', 'Perro', 'Golden Retriever', 'Macho', '2020-07-30', 'Pollo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (46, 'Kiara', 'Gato', 'Maine Coon', 'Hembra', '2018-09-05', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (47, 'Tango', 'Perro', 'Bulldog Inglés', 'Macho', '2021-04-22', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (48, 'Nala', 'Gato', 'Bengalí', 'Hembra', '2022-06-10', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (49, 'Zeus', 'Perro', 'Doberman', 'Macho', '2019-02-18', 'Carne roja', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (50, 'Coco', 'Ave', 'Periquito', 'Macho', '2021-12-01', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (51, 'Bella', 'Perro', 'Beagle', 'Hembra', '2020-08-25', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (52, 'Simba', 'Gato', 'Angora', 'Macho', '2019-10-12', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (53, 'Daisy', 'Perro', 'Poodle', 'Hembra', '2021-05-14', 'Pollo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (54, 'Thor', 'Perro', 'Husky Siberiano', 'Macho', '2020-02-28', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (55, 'Maya', 'Gato', 'Ragdoll', 'Hembra', '2022-07-19', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (56, 'Bruno', 'Perro', 'Boxer', 'Macho', '2018-11-11', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (57, 'Kira', 'Gato', 'Esfinge', 'Hembra', '2021-09-03', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (58, 'Leo', 'Perro', 'Chihuahua', 'Macho', '2022-03-21', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (59, 'Molly', 'Conejo', 'Cabeza de León', 'Hembra', '2021-06-07', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (60, 'Rambo', 'Perro', 'Pitbull', 'Macho', '2019-01-30', 'Pollo', TRUE, CURRENT_DATE);
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (61, 'Loki', 'Perro', 'Husky Siberiano', 'Macho', '2021-11-02', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (62, 'Mona', 'Gato', 'Persa', 'Hembra', '2022-05-18', 'Polvo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (63, 'Rocco', 'Perro', 'Bulldog Francés', 'Macho', '2020-08-09', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (64, 'Katy', 'Ave', 'Canario', 'Hembra', '2021-07-12', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (65, 'Sam', 'Perro', 'Beagle', 'Macho', '2019-12-22', 'Carne roja', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (66, 'Mimi', 'Gato', 'Siames', 'Hembra', '2021-04-30', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (67, 'Rocky', 'Perro', 'Rottweiler', 'Macho', '2018-06-15', 'Pollo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (68, 'Nube', 'Gato', 'Angora', 'Hembra', '2020-09-27', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (69, 'Pepe', 'Ave', 'Loro Amazónico', 'Macho', '2019-03-05', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (70, 'Luna', 'Conejo', 'Cabeza de León', 'Hembra', '2021-08-21', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (71, 'Zeus', 'Perro', 'Doberman', 'Macho', '2019-01-19', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (72, 'Mora', 'Gato', 'Ragdoll', 'Hembra', '2022-02-11', 'Polvo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (73, 'Toby', 'Perro', 'Golden Retriever', 'Macho', '2020-05-25', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (74, 'Misha', 'Gato', 'Maine Coon', 'Hembra', '2018-12-30', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (75, 'Thor', 'Perro', 'Pastor Alemán', 'Macho', '2019-07-07', 'Carne roja', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (76, 'Nala', 'Gato', 'Bengalí', 'Hembra', '2022-06-01', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (77, 'Coco', 'Ave', 'Periquito', 'Macho', '2021-11-14', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (78, 'Bella', 'Perro', 'Poodle', 'Hembra', '2021-05-02', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (79, 'Simba', 'Gato', 'Angora', 'Macho', '2019-09-09', 'Polvo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (80, 'Rex', 'Perro', 'Pitbull', 'Macho', '2019-02-28', NULL, TRUE, CURRENT_DATE);
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (81, 'Lola', 'Gato', 'Persa', 'Hembra', '2022-03-12', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (82, 'Max', 'Perro', 'Labrador Retriever', 'Macho', '2020-06-18', 'Pollo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (83, 'Kiara', 'Gato', 'Maine Coon', 'Hembra', '2019-01-25', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (84, 'Toby', 'Perro', 'Beagle', 'Macho', '2021-09-14', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (85, 'Nala', 'Gato', 'Bengalí', 'Hembra', '2022-07-07', 'Polvo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (86, 'Zeus', 'Perro', 'Doberman', 'Macho', '2019-04-02', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (87, 'Coco', 'Ave', 'Canario', 'Macho', '2021-10-20', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (88, 'Bella', 'Perro', 'Poodle', 'Hembra', '2021-05-11', 'Carne roja', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (89, 'Simba', 'Gato', 'Angora', 'Macho', '2019-08-08', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (90, 'Rambo', 'Perro', 'Rottweiler', 'Macho', '2018-07-19', 'Pollo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (91, 'Pelusa', 'Gato', 'Persa', 'Hembra', '2022-01-30', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (92, 'Lucky', 'Perro', 'Shih Tzu', 'Macho', '2020-09-09', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (93, 'Chispa', 'Ave', 'Periquito', 'Hembra', '2021-12-25', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (94, 'Tango', 'Perro', 'Dálmata', 'Macho', '2019-03-03', 'Carne roja', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (95, 'Luna', 'Gato', 'Ragdoll', 'Hembra', '2022-05-05', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (96, 'Apolo', 'Perro', 'Boxer', 'Macho', '2018-11-11', 'Pollo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (97, 'Paco', 'Ave', 'Loro Amazónico', 'Macho', '2020-10-10', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (98, 'Duna', 'Perro', 'Border Collie', 'Hembra', '2021-02-02', NULL, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (99, 'Tom', 'Gato', 'Esfinge', 'Macho', '2020-01-01', 'Polvo', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.mascotas (id_cliente, nombre, especie, raza, sexo, fecha_nacimiento, alergias, activo, fecha_registro)
+VALUES (100, 'Chispi', 'Conejo', 'Cabeza de León', 'Hembra', '2021-06-06', NULL, TRUE, CURRENT_DATE);
+
+
+--inserts citas
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (1, '2023-01-15 10:30:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (2, '2023-02-20 14:00:00', 'Consulta general', 'Examen físico sin hallazgos relevantes', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (3, '2023-03-05 09:15:00', 'Alergia alimentaria', 'Dermatitis por consumo de cereal', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (4, '2023-03-22 11:45:00', 'Revisión post-esterilización', 'Cicatrización adecuada', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (5, '2023-04-10 16:00:00', 'Chequeo dental', 'Placa bacteriana leve', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (6, '2023-05-02 13:30:00', 'Problemas respiratorios', 'Rinitis alérgica por polvo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (7, '2023-05-18 09:00:00', 'Vacunación anual', 'Aplicación de vacuna polivalente', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (8, '2023-06-01 15:20:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (9, '2023-06-25 10:10:00', 'Alergia alimentaria', 'Reacción al pollo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (10, '2023-07-12 12:00:00', 'Chequeo de alas', 'Plumas en buen estado', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (11, '2023-07-30 09:45:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (12, '2023-08-15 14:30:00', 'Problemas respiratorios', 'Rinitis alérgica por polvo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (13, '2023-09-01 11:00:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (14, '2023-09-20 16:15:00', 'Chequeo general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (15, '2023-10-05 10:40:00', 'Revisión post-esterilización', 'Cicatrización adecuada', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (16, '2023-10-22 13:00:00', 'Alergia alimentaria', 'Reacción a carne roja', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (17, '2023-11-08 09:30:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (18, '2023-11-25 15:00:00', 'Vacunación anual', 'Aplicación de vacuna polivalente', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (19, '2023-12-10 11:20:00', 'Chequeo dental', 'Dientes en buen estado', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (20, '2023-12-28 14:45:00', 'Consulta general', 'Examen físico sin hallazgos relevantes', 'Completada', TRUE, CURRENT_DATE);
+-- Citas del 21 al 40
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (21, '2024-01-12 09:00:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (22, '2024-01-28 15:30:00', 'Problemas respiratorios', 'Rinitis alérgica por polvo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (23, '2024-02-10 11:15:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (24, '2024-02-25 14:00:00', 'Chequeo dental', 'Placa bacteriana leve', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (25, '2024-03-08 10:45:00', 'Alergia alimentaria', 'Reacción al pollo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (26, '2024-03-20 16:20:00', 'Chequeo de alas', 'Plumas en buen estado', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (27, '2024-04-05 09:30:00', 'Vacunación anual', 'Aplicación de vacuna polivalente', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (28, '2024-04-18 13:00:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (29, '2024-05-02 11:40:00', 'Alergia alimentaria', 'Reacción a carne roja', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (30, '2024-05-15 15:10:00', 'Chequeo general', 'Examen físico sin hallazgos relevantes', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (31, '2024-06-01 09:00:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Cancelada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (32, '2024-06-18 14:30:00', 'Chequeo dental', 'Encías inflamadas leves', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (33, '2024-07-05 10:20:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (34, '2024-07-22 16:00:00', 'Alergia alimentaria', 'Reacción al pollo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (35, '2024-08-10 09:45:00', 'Vacunación anual', 'Aplicación de vacuna polivalente', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (36, '2024-08-25 11:30:00', 'Chequeo dental', 'Placa bacteriana moderada', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (37, '2024-09-12 15:00:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (38, '2024-09-28 09:20:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (39, '2024-10-15 14:10:00', 'Chequeo general', 'Examen físico sin hallazgos relevantes', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (40, '2024-10-30 10:50:00', 'Alergia alimentaria', 'Reacción al pollo', 'Pendiente', TRUE, CURRENT_DATE);
+-- Citas del 41 al 60
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (41, '2024-11-12 09:00:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (42, '2024-11-28 15:30:00', 'Problemas respiratorios', 'Rinitis alérgica por polvo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (43, '2024-12-10 11:15:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (44, '2024-12-25 14:00:00', 'Chequeo dental', 'Placa bacteriana leve', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (45, '2025-01-08 10:45:00', 'Alergia alimentaria', 'Reacción al pollo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (46, '2025-01-20 16:20:00', 'Chequeo de piel', 'Dermatitis leve', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (47, '2025-02-05 09:30:00', 'Vacunación anual', 'Aplicación de vacuna polivalente', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (48, '2025-02-18 13:00:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (49, '2025-03-02 11:40:00', 'Alergia alimentaria', 'Reacción a carne roja', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (50, '2025-03-15 15:10:00', 'Chequeo general', 'Examen físico sin hallazgos relevantes', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (51, '2025-04-01 09:00:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (52, '2025-04-18 14:30:00', 'Chequeo dental', 'Encías inflamadas leves', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (53, '2025-05-05 10:20:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (54, '2025-05-22 16:00:00', 'Alergia alimentaria', 'Reacción al pollo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (55, '2025-06-10 09:45:00', 'Vacunación anual', 'Aplicación de vacuna polivalente', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (56, '2025-06-25 11:30:00', 'Chequeo dental', 'Placa bacteriana moderada', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (57, '2025-07-12 15:00:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (58, '2025-07-28 09:20:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (59, '2025-08-15 14:10:00', 'Chequeo general', 'Examen físico sin hallazgos relevantes', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (60, '2025-08-30 10:50:00', 'Alergia alimentaria', 'Reacción al pollo', 'Pendiente', TRUE, CURRENT_DATE);
+-- Citas del 61 al 80
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (61, '2025-09-12 09:00:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (62, '2025-09-28 15:30:00', 'Problemas respiratorios', 'Rinitis alérgica por polvo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (63, '2025-10-10 11:15:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (64, '2025-10-25 14:00:00', 'Chequeo dental', 'Placa bacteriana leve', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (65, '2025-11-08 10:45:00', 'Alergia alimentaria', 'Reacción a carne roja', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (66, '2025-11-20 16:20:00', 'Chequeo de piel', 'Dermatitis leve', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (67, '2025-12-05 09:30:00', 'Vacunación anual', 'Aplicación de vacuna polivalente', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (68, '2025-12-18 13:00:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (69, '2026-01-02 11:40:00', 'Chequeo de alas', 'Plumas en buen estado', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (70, '2026-01-15 15:10:00', 'Chequeo general', 'Examen físico sin hallazgos relevantes', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (71, '2026-02-01 09:00:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Cancelada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (72, '2026-02-18 14:30:00', 'Chequeo dental', 'Encías inflamadas leves', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (73, '2026-03-05 10:20:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (74, '2026-03-22 16:00:00', 'Alergia alimentaria', 'Reacción al pollo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (75, '2026-04-10 09:45:00', 'Vacunación anual', 'Aplicación de vacuna polivalente', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (76, '2026-04-25 11:30:00', 'Chequeo dental', 'Placa bacteriana moderada', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (77, '2026-05-12 15:00:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (78, '2026-05-28 09:20:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (79, '2026-06-15 14:10:00', 'Chequeo general', 'Examen físico sin hallazgos relevantes', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (80, '2026-06-30 10:50:00', 'Alergia alimentaria', 'Reacción al pollo', 'Pendiente', TRUE, CURRENT_DATE);
+-- Citas del 81 al 100
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (81, '2026-07-12 09:00:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (82, '2026-07-28 15:30:00', 'Problemas respiratorios', 'Rinitis alérgica por polvo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (83, '2026-08-10 11:15:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (84, '2026-08-25 14:00:00', 'Chequeo dental', 'Placa bacteriana leve', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (85, '2026-09-08 10:45:00', 'Alergia alimentaria', 'Reacción al pollo', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (86, '2026-09-20 16:20:00', 'Chequeo de piel', 'Dermatitis leve', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (87, '2026-10-05 09:30:00', 'Vacunación anual', 'Aplicación de vacuna polivalente', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (88, '2026-10-18 13:00:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (89, '2026-11-02 11:40:00', 'Chequeo dental', 'Encías inflamadas leves', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (90, '2026-11-15 15:10:00', 'Chequeo general', 'Examen físico sin hallazgos relevantes', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (91, '2026-12-01 09:00:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (92, '2026-12-18 14:30:00', 'Chequeo dental', 'Placa bacteriana moderada', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (93, '2027-01-05 10:20:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (94, '2027-01-22 16:00:00', 'Alergia alimentaria', 'Reacción a carne roja', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (95, '2027-02-10 09:45:00', 'Vacunación anual', 'Aplicación de vacuna polivalente', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (96, '2027-02-25 11:30:00', 'Chequeo dental', 'Encías inflamadas leves', 'Pendiente', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (97, '2027-03-12 15:00:00', 'Consulta general', 'Examen físico normal', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (98, '2027-03-28 09:20:00', 'Vacunación anual', 'Aplicación de vacuna antirrábica', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (99, '2027-04-15 14:10:00', 'Chequeo general', 'Examen físico sin hallazgos relevantes', 'Completada', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.citas (id_mascota, fecha_cita, motivo, diagnostico, estado, activo, fecha_registro)
+VALUES (100, '2027-04-30 10:50:00', 'Alergia alimentaria', 'Reacción al pollo', 'Pendiente', TRUE, CURRENT_DATE);
+
+
+--insert proveedores
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetLife S.A.', '0991234567', 'contacto@vetlife.com', 'Av. 9 de Octubre 123, Guayaquil', '1790012345001', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroPet Distribuidores', '0987654321', 'ventas@agropet.ec', 'Calle Amazonas 456, Quito', '1790012345002', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Farmavet Cía. Ltda.', '0976543210', 'info@farmavet.ec', 'Av. Machala 789, Guayaquil', '1790012345003', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetHouse Ecuador', '0965432109', 'servicio@pethouse.ec', 'Av. América 321, Quito', '1790012345004', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora AnimalCare', '0954321098', 'ventas@animalcare.ec', 'Av. del Bombero 654, Guayaquil', '1790012345005', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetFood Importadora', '0943210987', 'contacto@petfood.ec', 'Av. González Suárez 987, Quito', '1790012345006', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Clínica Veterinaria San José', '0932109876', 'clinica@sanjo.vet', 'Av. Quito 111, Cuenca', '1790012345007', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora Mascotín', '0921098765', 'ventas@mascotin.ec', 'Av. Loja 222, Loja', '1790012345008', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetWorld Ecuador', '0910987654', 'info@petworld.ec', 'Av. Malecón 333, Guayaquil', '1790012345009', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Importaciones', '0998765432', 'ventas@agrovet.ec', 'Av. República 444, Quito', '1790012345010', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora AnimalFood', '0987654320', 'contacto@animalfood.ec', 'Av. Kennedy 555, Guayaquil', '1790012345011', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Clínica Veterinaria El Bosque', '0976543209', 'clinica@bosque.vet', 'Av. El Bosque 666, Quito', '1790012345012', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetMarket Ecuador', '0965432098', 'ventas@petmarket.ec', 'Av. Samborondón 777, Guayaquil', '1790012345013', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora VetPlus', '0954320987', 'info@vetplus.ec', 'Av. Naciones Unidas 888, Quito', '1790012345014', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroAnimal S.A.', '0943209876', 'ventas@agroanimal.ec', 'Av. 25 de Julio 999, Guayaquil', '1790012345015', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetCare Distribuidores', '0932098765', 'contacto@petcare.ec', 'Av. Mariana de Jesús 101, Quito', '1790012345016', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Clínica Veterinaria Los Andes', '0920987654', 'clinica@losandes.vet', 'Av. Los Andes 202, Cuenca', '1790012345017', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora AnimalPet', '0919876543', 'ventas@animalpet.ec', 'Av. Machala 303, Guayaquil', '1790012345018', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetZone Ecuador', '0998765431', 'info@petzone.ec', 'Av. Amazonas 404, Quito', '1790012345019', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Distribuidores', '0987654329', 'ventas@agrovetdist.ec', 'Av. Portete 505, Guayaquil', '1790012345020', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetSolutions Ecuador', '0991112233', 'info@vetsolutions.ec', 'Av. 10 de Agosto 606, Quito', '1790012345021', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora PetLine', '0982223344', 'ventas@petline.ec', 'Av. Francisco de Orellana 707, Guayaquil', '1790012345022', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Andes', '0973334455', 'contacto@agrovetandes.ec', 'Av. Remigio Crespo 808, Cuenca', '1790012345023', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetCare Importadora', '0964445566', 'info@petcareimport.ec', 'Av. Amazonas 909, Quito', '1790012345024', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora VetGlobal', '0955556677', 'ventas@vetglobal.ec', 'Av. Juan Tanca Marengo 1010, Guayaquil', '1790012345025', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AnimalHealth S.A.', '0946667788', 'contacto@animalhealth.ec', 'Av. República 1111, Quito', '1790012345026', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetCenter Ecuador', '0937778899', 'info@petcenter.ec', 'Av. Las Américas 1212, Cuenca', '1790012345027', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora VetMarket', '0928889900', 'ventas@vetmarket.ec', 'Av. Kennedy 1313, Guayaquil', '1790012345028', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroAnimal Importaciones', '0919990011', 'contacto@agroanimal.ec', 'Av. Amazonas 1414, Quito', '1790012345029', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetDistribuidores S.A.', '0990001122', 'info@vetdistribuidores.ec', 'Av. Portete 1515, Guayaquil', '1790012345030', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetWorld Distribuidores', '0981112234', 'ventas@petworlddist.ec', 'Av. América 1616, Quito', '1790012345031', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Solutions', '0972223345', 'contacto@agrovetsolutions.ec', 'Av. Machala 1717, Guayaquil', '1790012345032', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora AnimalWorld', '0963334456', 'info@animalworld.ec', 'Av. República 1818, Quito', '1790012345033', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetHouse Ecuador', '0954445567', 'ventas@vethouse.ec', 'Av. Samborondón 1919, Guayaquil', '1790012345034', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetZone Distribuidores', '0945556678', 'contacto@petzone.ec', 'Av. Naciones Unidas 2020, Quito', '1790012345035', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Importadora', '0936667789', 'info@agrovetimport.ec', 'Av. 25 de Julio 2121, Guayaquil', '1790012345036', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora PetGlobal', '0927778890', 'ventas@petglobal.ec', 'Av. Mariana de Jesús 2222, Quito', '1790012345037', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetMarket Ecuador', '0918889901', 'info@vetmarket.ec', 'Av. Los Andes 2323, Cuenca', '1790012345038', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AnimalCare Distribuidores', '0999990012', 'ventas@animalcare.ec', 'Av. Machala 2424, Guayaquil', '1790012345039', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetLine Ecuador', '0980001123', 'contacto@petline.ec', 'Av. Amazonas 2525, Quito', '1790012345040', TRUE, CURRENT_DATE);
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetPlus Ecuador', '0991113344', 'info@vetplus.ec', 'Av. Amazonas 2626, Quito', '1790012345041', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora PetAndes', '0982224455', 'ventas@petandes.ec', 'Av. Francisco de Orellana 2727, Guayaquil', '1790012345042', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Nacional', '0973335566', 'contacto@agrovn.ec', 'Av. Remigio Crespo 2828, Cuenca', '1790012345043', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetCare Solutions', '0964446677', 'info@petcaresolutions.ec', 'Av. América 2929, Quito', '1790012345044', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora VetAndes', '0955557788', 'ventas@vetandes.ec', 'Av. Juan Tanca Marengo 3030, Guayaquil', '1790012345045', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AnimalHealth Importadora', '0946668899', 'contacto@animalhealthimp.ec', 'Av. República 3131, Quito', '1790012345046', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetCenter Distribuidores', '0937779900', 'info@petcenterdist.ec', 'Av. Las Américas 3232, Cuenca', '1790012345047', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora VetLine', '0928880011', 'ventas@vetline.ec', 'Av. Kennedy 3333, Guayaquil', '1790012345048', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroAnimal Global', '0919991122', 'contacto@agroanimalglobal.ec', 'Av. Amazonas 3434, Quito', '1790012345049', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetDistribuidores Global', '0990002233', 'info@vetdisglobal.ec', 'Av. Portete 3535, Guayaquil', '1790012345050', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetWorld Importadora', '0981113345', 'ventas@petworldimp.ec', 'Av. América 3636, Quito', '1790012345051', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Internacional', '0972224456', 'contacto@agrovetint.ec', 'Av. Machala 3737, Guayaquil', '1790012345052', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora AnimalGlobal', '0963335567', 'info@animalglobal.ec', 'Av. República 3838, Quito', '1790012345053', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetHouse Distribuidores', '0954446678', 'ventas@vethousedist.ec', 'Av. Samborondón 3939, Guayaquil', '1790012345054', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetZone Importadora', '0945557789', 'contacto@petzoneimp.ec', 'Av. Naciones Unidas 4040, Quito', '1790012345055', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Distribuciones', '0936668890', 'info@agrovetdist.ec', 'Av. 25 de Julio 4141, Guayaquil', '1790012345056', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora PetSolutions', '0927779901', 'ventas@petsolutions.ec', 'Av. Mariana de Jesús 4242, Quito', '1790012345057', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetMarket Distribuidores', '0918880012', 'info@vetmarketdist.ec', 'Av. Los Andes 4343, Cuenca', '1790012345058', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AnimalCare Importadora', '0999991123', 'ventas@animalcareimp.ec', 'Av. Machala 4444, Guayaquil', '1790012345059', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetLine Distribuidores', '0980002234', 'contacto@petlinedist.ec', 'Av. Amazonas 4545, Quito', '1790012345060', TRUE, CURRENT_DATE);
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetSolutions Global', '0991114455', 'info@vetsolutionsglobal.ec', 'Av. Amazonas 4646, Quito', '1790012345061', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora PetAndes Global', '0982225566', 'ventas@petandesglobal.ec', 'Av. Francisco de Orellana 4747, Guayaquil', '1790012345062', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Nacional S.A.', '0973336677', 'contacto@agrovnsa.ec', 'Av. Remigio Crespo 4848, Cuenca', '1790012345063', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetCare Internacional', '0964447788', 'info@petcareint.ec', 'Av. América 4949, Quito', '1790012345064', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora VetAndes Global', '0955558899', 'ventas@vetandesglobal.ec', 'Av. Juan Tanca Marengo 5050, Guayaquil', '1790012345065', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AnimalHealth Internacional', '0946669900', 'contacto@animalhealthint.ec', 'Av. República 5151, Quito', '1790012345066', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetCenter Global', '0937770011', 'info@petcenterglobal.ec', 'Av. Las Américas 5252, Cuenca', '1790012345067', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora VetLine Global', '0928881122', 'ventas@vetlineglobal.ec', 'Av. Kennedy 5353, Guayaquil', '1790012345068', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroAnimal Internacional', '0919992233', 'contacto@agroanimalint.ec', 'Av. Amazonas 5454, Quito', '1790012345069', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetDistribuidores Internacional', '0990003344', 'info@vetdisint.ec', 'Av. Portete 5555, Guayaquil', '1790012345070', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetWorld Internacional', '0981114456', 'ventas@petworldint.ec', 'Av. América 5656, Quito', '1790012345071', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Internacional S.A.', '0972225567', 'contacto@agrovetinternacional.ec', 'Av. Machala 5757, Guayaquil', '1790012345072', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora AnimalGlobal S.A.', '0963336678', 'info@animalglobalsa.ec', 'Av. República 5858, Quito', '1790012345073', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetHouse Internacional', '0954447789', 'ventas@vethouseint.ec', 'Av. Samborondón 5959, Guayaquil', '1790012345074', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetZone Internacional', '0945558890', 'contacto@petzoneint.ec', 'Av. Naciones Unidas 6060, Quito', '1790012345075', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Distribuciones Global', '0936669901', 'info@agrovetdistglobal.ec', 'Av. 25 de Julio 6161, Guayaquil', '1790012345076', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora PetSolutions Global', '0927770012', 'ventas@petsolutionsglobal.ec', 'Av. Mariana de Jesús 6262, Quito', '1790012345077', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetMarket Internacional', '0918881123', 'info@vetmarketint.ec', 'Av. Los Andes 6363, Cuenca', '1790012345078', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AnimalCare Internacional', '0999992234', 'ventas@animalcareint.ec', 'Av. Machala 6464, Guayaquil', '1790012345079', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetLine Internacional', '0980003345', 'contacto@petlineint.ec', 'Av. Amazonas 6565, Quito', '1790012345080', TRUE, CURRENT_DATE);
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetSolutions Internacional', '0991115566', 'info@vetsolutionsint.ec', 'Av. Amazonas 6666, Quito', '1790012345081', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora PetAndes Internacional', '0982226677', 'ventas@petandesint.ec', 'Av. Francisco de Orellana 6767, Guayaquil', '1790012345082', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Nacional Global', '0973337788', 'contacto@agrovnglobal.ec', 'Av. Remigio Crespo 6868, Cuenca', '1790012345083', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetCare Global', '0964448899', 'info@petcareglobal.ec', 'Av. América 6969, Quito', '1790012345084', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora VetAndes Internacional', '0955559900', 'ventas@vetandesint.ec', 'Av. Juan Tanca Marengo 7070, Guayaquil', '1790012345085', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AnimalHealth Global', '0946660011', 'contacto@animalhealthglobal.ec', 'Av. República 7171, Quito', '1790012345086', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetCenter Internacional', '0937771122', 'info@petcenterint.ec', 'Av. Las Américas 7272, Cuenca', '1790012345087', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora VetLine Internacional', '0928882233', 'ventas@vetlineint.ec', 'Av. Kennedy 7373, Guayaquil', '1790012345088', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroAnimal Global S.A.', '0919993344', 'contacto@agroanimalglobal.ec', 'Av. Amazonas 7474, Quito', '1790012345089', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetDistribuidores Andes', '0990004455', 'info@vetandesdist.ec', 'Av. Portete 7575, Guayaquil', '1790012345090', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetWorld Global', '0981115567', 'ventas@petworldglobal.ec', 'Av. América 7676, Quito', '1790012345091', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Internacional Global', '0972226678', 'contacto@agrovetintglobal.ec', 'Av. Machala 7777, Guayaquil', '1790012345092', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora AnimalGlobal Internacional', '0963337789', 'info@animalglobalint.ec', 'Av. República 7878, Quito', '1790012345093', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetHouse Global', '0954448890', 'ventas@vethouseglobal.ec', 'Av. Samborondón 7979, Guayaquil', '1790012345094', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetZone Global', '0945559901', 'contacto@petzoneglobal.ec', 'Av. Naciones Unidas 8080, Quito', '1790012345095', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AgroVet Distribuciones Internacional', '0936660012', 'info@agrovetdistint.ec', 'Av. 25 de Julio 8181, Guayaquil', '1790012345096', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('Distribuidora PetSolutions Internacional', '0927771123', 'ventas@petsolutionsint.ec', 'Av. Mariana de Jesús 8282, Quito', '1790012345097', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('VetMarket Global', '0918882234', 'info@vetmarketglobal.ec', 'Av. Los Andes 8383, Cuenca', '1790012345098', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('AnimalCare Global', '0999993345', 'ventas@animalcareglobal.ec', 'Av. Machala 8484, Guayaquil', '1790012345099', TRUE, CURRENT_DATE);
+
+INSERT INTO avite.proveedores (nombre, telefono, email, direccion, ruc, activo, fecha_registro)
+VALUES ('PetLine Global', '0980004456', 'contacto@petlineglobal.ec', 'Av. Amazonas 8585, Quito', '1790012345100', TRUE, CURRENT_DATE);
+
+
+--insert productos
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Premium Perro Adulto', 'Alimento balanceado para perros adultos raza mediana', 'Alimentos', 25.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Gato Kitten', 'Alimento seco para gatitos menores de 12 meses', 'Alimentos', 22.30, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Antipulgas', 'Shampoo medicado contra pulgas y garrapatas', 'Higiene', 12.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Collar Ajustable Nylon', 'Collar resistente para perros medianos', 'Accesorios', 8.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Pelota de Goma', 'Pelota mordedora para perros, material no tóxico', 'Juguetes', 5.75, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Arena Sanitaria Premium', 'Arena aglutinante para gatos con control de olores', 'Higiene', 14.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Vitaminas Complejo B', 'Suplemento vitamínico para perros y gatos', 'Suplementos', 18.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Antiparasitario Interno', 'Tabletas contra parásitos intestinales en perros', 'Medicamentos', 9.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Transportadora Plástica', 'Caja transportadora para gatos y perros pequeños', 'Accesorios', 35.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Correa Extensible', 'Correa retráctil para paseos de perros', 'Accesorios', 15.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Light Perro', 'Alimento bajo en calorías para control de peso', 'Alimentos', 27.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Senior Gato', 'Alimento seco para gatos mayores de 7 años', 'Alimentos', 24.10, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Ratón de Tela', 'Ratón relleno de catnip para gatos', 'Juguetes', 4.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Cepillo de Cerdas Suaves', 'Cepillo para peinar perros de pelo largo', 'Accesorios', 7.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Neutro', 'Shampoo suave para piel sensible de mascotas', 'Higiene', 11.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Omega 3', 'Aceite de pescado para mejorar pelaje y piel', 'Suplementos', 19.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Antibiótico Veterinario', 'Suspensión oral para infecciones bacterianas', 'Medicamentos', 21.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Cama Acolchada Mediana', 'Cama suave y acolchada para perros medianos', 'Accesorios', 32.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Premium Cachorro', 'Alimento balanceado para cachorros de todas las razas', 'Alimentos', 26.70, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Indoor Cat', 'Alimento seco para gatos que viven en interiores', 'Alimentos', 23.40, TRUE, CURRENT_DATE);
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Puppy Small Breed', 'Alimento seco para cachorros de razas pequeñas', 'Alimentos', 24.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Senior Perro', 'Alimento balanceado para perros mayores de 7 años', 'Alimentos', 28.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Cuerda Resistente', 'Cuerda trenzada para juegos de tirar y morder', 'Juguetes', 6.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Blanqueador', 'Shampoo especial para pelaje blanco', 'Higiene', 13.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Calcio', 'Tabletas de calcio para fortalecer huesos', 'Suplementos', 17.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Antiparasitario Externo', 'Pipetas contra pulgas y garrapatas', 'Medicamentos', 15.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Cama Redonda Pequeña', 'Cama acolchada para gatos y perros pequeños', 'Accesorios', 28.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Grain Free Perro', 'Alimento libre de granos para perros sensibles', 'Alimentos', 30.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Sterilized Cat', 'Alimento seco para gatos esterilizados', 'Alimentos', 26.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Hueso Nylon', 'Hueso mordedor de nylon para perros', 'Juguetes', 9.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Cepillo Deslanador', 'Cepillo para remover pelo muerto en perros y gatos', 'Accesorios', 12.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Herbal', 'Shampoo natural con extractos de aloe vera', 'Higiene', 10.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Multivitamínico', 'Complejo vitamínico para mascotas', 'Suplementos', 20.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Antiinflamatorio Veterinario', 'Medicamento para inflamaciones articulares', 'Medicamentos', 23.70, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Transportadora Metálica', 'Jaula metálica para transporte de perros medianos', 'Accesorios', 45.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Premium Cat Adulto', 'Alimento balanceado para gatos adultos', 'Alimentos', 27.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Hypoallergenic Dog', 'Alimento hipoalergénico para perros con alergias alimentarias', 'Alimentos', 33.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Peluche Animal', 'Peluche suave para gatos y perros pequeños', 'Juguetes', 7.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Anticaspa', 'Shampoo especial para piel con caspa', 'Higiene', 12.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Probióticos', 'Cápsulas para mejorar la flora intestinal', 'Suplementos', 18.90, TRUE, CURRENT_DATE);
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Puppy Large Breed', 'Alimento seco para cachorros de razas grandes', 'Alimentos', 29.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Cat Hairball Control', 'Alimento seco para gatos con tendencia a bolas de pelo', 'Alimentos', 25.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Frisbee', 'Disco volador para juegos al aire libre con perros', 'Juguetes', 6.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Antiséptico', 'Shampoo especial para piel con infecciones leves', 'Higiene', 14.30, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Glucosamina', 'Tabletas para articulaciones de perros adultos', 'Suplementos', 22.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Antiparasitario Oral Gato', 'Tabletas contra parásitos internos en gatos', 'Medicamentos', 12.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Cama Rectangular Grande', 'Cama acolchada para perros grandes', 'Accesorios', 40.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Dog Sensitive Skin', 'Alimento para perros con piel sensible', 'Alimentos', 31.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Cat Urinary Care', 'Alimento seco para gatos con problemas urinarios', 'Alimentos', 28.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Pelota con Sonido', 'Pelota con sonido para estimular a perros', 'Juguetes', 5.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Cepillo Guante', 'Guante con cerdas para remover pelo muerto', 'Accesorios', 9.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Hidratante', 'Shampoo con aloe vera para piel seca', 'Higiene', 11.70, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Hierro', 'Jarabe con hierro para mascotas con anemia', 'Suplementos', 16.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Antibiótico Oral Gato', 'Suspensión oral para infecciones en gatos', 'Medicamentos', 19.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Transportadora Mochila', 'Mochila transportadora para gatos y perros pequeños', 'Accesorios', 38.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Dog Weight Control', 'Alimento para control de peso en perros', 'Alimentos', 29.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Cat Digestive Care', 'Alimento seco para gatos con digestión sensible', 'Alimentos', 27.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Varilla con Plumas', 'Varilla con plumas para juegos interactivos con gatos', 'Juguetes', 4.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Antipulgas Natural', 'Shampoo con extractos naturales contra pulgas', 'Higiene', 13.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Vitamina D', 'Tabletas de vitamina D para fortalecer huesos', 'Suplementos', 17.90, TRUE, CURRENT_DATE);
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Dog Joint Care', 'Alimento para perros con problemas articulares', 'Alimentos', 32.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Cat Hair & Skin', 'Alimento seco para gatos que mejora pelaje y piel', 'Alimentos', 27.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Pelota con Cuerda', 'Pelota unida a cuerda para juegos interactivos', 'Juguetes', 6.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Calmante', 'Shampoo con manzanilla para piel sensible', 'Higiene', 12.70, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Magnesio', 'Tabletas de magnesio para relajación muscular', 'Suplementos', 18.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Antiparasitario Oral Perro', 'Tabletas contra parásitos internos en perros', 'Medicamentos', 13.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Cama Ovalada Pequeña', 'Cama acolchada para gatos pequeños', 'Accesorios', 26.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Dog Digestive Care', 'Alimento para perros con digestión sensible', 'Alimentos', 30.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Cat Weight Control', 'Alimento seco para gatos con control de peso', 'Alimentos', 25.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Pelota de Tela', 'Pelota suave rellena de algodón para gatos', 'Juguetes', 4.70, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Cepillo Doble Cara', 'Cepillo con cerdas y púas metálicas', 'Accesorios', 10.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Antibacterial', 'Shampoo para piel con infecciones bacterianas leves', 'Higiene', 14.10, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Vitamina C', 'Tabletas de vitamina C para reforzar defensas', 'Suplementos', 16.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Antiinflamatorio Oral Perro', 'Medicamento para inflamaciones en perros', 'Medicamentos', 22.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Transportadora Grande', 'Caja transportadora para perros grandes', 'Accesorios', 55.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Dog Hypoallergenic', 'Alimento hipoalergénico para perros sensibles', 'Alimentos', 34.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Cat Indoor', 'Alimento seco para gatos que viven en interiores', 'Alimentos', 26.30, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Ratón con Sonido', 'Ratón de tela con sonido para gatos', 'Juguetes', 5.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Nutritivo', 'Shampoo con vitaminas para pelaje brillante', 'Higiene', 13.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Zinc', 'Tabletas de zinc para fortalecer sistema inmune', 'Suplementos', 17.40, TRUE, CURRENT_DATE);
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Dog Energy', 'Alimento para perros activos y deportistas', 'Alimentos', 33.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Cat Kitten Premium', 'Alimento premium para gatitos menores de 12 meses', 'Alimentos', 28.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Pelota Interactiva', 'Pelota con luces y sonido para gatos', 'Juguetes', 8.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Relajante', 'Shampoo con lavanda para relajar mascotas', 'Higiene', 12.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Colágeno', 'Polvo de colágeno para articulaciones y piel', 'Suplementos', 21.70, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Antiparasitario Spot On', 'Pipetas para control de pulgas y garrapatas', 'Medicamentos', 16.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Cama Deluxe Grande', 'Cama acolchada de lujo para perros grandes', 'Accesorios', 60.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Dog Grain Free Premium', 'Alimento libre de granos para perros adultos', 'Alimentos', 35.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Cat Senior Premium', 'Alimento premium para gatos mayores de 7 años', 'Alimentos', 29.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Ratón Eléctrico', 'Ratón eléctrico para juegos interactivos con gatos', 'Juguetes', 12.50, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Cepillo Metálico', 'Cepillo metálico para remover pelo muerto', 'Accesorios', 11.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Aloe Vera', 'Shampoo hidratante con extracto de aloe vera', 'Higiene', 13.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Vitamina E', 'Tabletas antioxidantes para mejorar pelaje', 'Suplementos', 19.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Antibiótico Oral Perro', 'Suspensión oral para infecciones bacterianas en perros', 'Medicamentos', 20.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Transportadora Pequeña', 'Caja transportadora para gatos y perros pequeños', 'Accesorios', 30.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Dog Puppy Premium', 'Alimento premium para cachorros de todas las razas', 'Alimentos', 32.10, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Croquetas Cat Digestive Premium', 'Alimento premium para gatos con digestión sensible', 'Alimentos', 28.70, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Juguete Pelota con Catnip', 'Pelota rellena de catnip para gatos', 'Juguetes', 6.90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Shampoo Antipulgas Premium', 'Shampoo medicado premium contra pulgas', 'Higiene', 15.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.productos (nombre, descripcion, categoria, precio_venta, activo, fecha_registro)
+VALUES ('Suplemento Omega 6', 'Aceite para mejorar piel y pelaje', 'Suplementos', 20.40, TRUE, CURRENT_DATE);
+
+
+--inserts inventario
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (1, 1, 120, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (2, 2, 85, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (3, 3, 60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (4, 4, 150, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (5, 5, 40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (6, 6, 95, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (7, 7, 70, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (8, 8, 110, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (9, 9, 55, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (10, 10, 130, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (11, 11, 75, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (12, 12, 90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (13, 13, 45, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (14, 14, 160, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (15, 15, 100, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (16, 16, 80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (17, 17, 140, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (18, 18, 65, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (19, 19, 115, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (20, 20, 50, TRUE, CURRENT_DATE);
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (21, 21, 135, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (22, 22, 60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (23, 23, 95, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (24, 24, 150, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (25, 25, 70, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (26, 26, 120, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (27, 27, 85, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (28, 28, 55, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (29, 29, 140, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (30, 30, 100, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (31, 31, 75, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (32, 32, 110, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (33, 33, 65, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (34, 34, 125, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (35, 35, 90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (36, 36, 45, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (37, 37, 160, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (38, 38, 80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (39, 39, 115, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (40, 40, 50, TRUE, CURRENT_DATE);
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (41, 41, 125, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (42, 42, 70, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (43, 43, 95, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (44, 44, 150, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (45, 45, 65, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (46, 46, 110, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (47, 47, 85, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (48, 48, 55, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (49, 49, 140, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (50, 50, 100, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (51, 51, 75, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (52, 52, 120, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (53, 53, 65, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (54, 54, 125, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (55, 55, 90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (56, 56, 45, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (57, 57, 160, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (58, 58, 80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (59, 59, 115, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (60, 60, 50, TRUE, CURRENT_DATE);
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (61, 61, 135, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (62, 62, 75, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (63, 63, 95, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (64, 64, 150, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (65, 65, 65, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (66, 66, 110, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (67, 67, 85, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (68, 68, 55, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (69, 69, 140, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (70, 70, 100, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (71, 71, 75, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (72, 72, 120, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (73, 73, 65, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (74, 74, 125, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (75, 75, 90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (76, 76, 45, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (77, 77, 160, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (78, 78, 80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (79, 79, 115, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (80, 80, 50, TRUE, CURRENT_DATE);
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (81, 81, 130, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (82, 82, 75, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (83, 83, 95, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (84, 84, 150, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (85, 85, 65, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (86, 86, 110, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (87, 87, 85, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (88, 88, 55, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (89, 89, 140, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (90, 90, 100, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (91, 91, 75, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (92, 92, 120, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (93, 93, 65, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (94, 94, 125, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (95, 95, 90, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (96, 96, 45, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (97, 97, 160, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (98, 98, 80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (99, 99, 115, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.inventario (id_producto, id_proveedor, stock_actual, activo, fecha_registro)
+VALUES (100, 100, 50, TRUE, CURRENT_DATE);
+
+---insert ventas
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (1, 'EFECTIVO', 100.00, 12.00, 112.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (2, 'TARJETA', 85.50, 10.26, 95.76, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (3, 'DEPOSITO', 150.00, 18.00, 168.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (4, 'EFECTIVO', 60.00, 7.20, 67.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (5, 'TARJETA', 200.00, 24.00, 224.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (6, 'DEPOSITO', 95.00, 11.40, 106.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (7, 'EFECTIVO', 120.00, 14.40, 134.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (8, 'TARJETA', 75.00, 9.00, 84.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (9, 'DEPOSITO', 180.00, 21.60, 201.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (10, 'EFECTIVO', 55.00, 6.60, 61.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (11, 'TARJETA', 130.00, 15.60, 145.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (12, 'DEPOSITO', 210.00, 25.20, 235.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (13, 'EFECTIVO', 95.00, 11.40, 106.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (14, 'TARJETA', 160.00, 19.20, 179.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (15, 'DEPOSITO', 70.00, 8.40, 78.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (16, 'EFECTIVO', 140.00, 16.80, 156.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (17, 'TARJETA', 250.00, 30.00, 280.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (18, 'DEPOSITO', 80.00, 9.60, 89.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (19, 'EFECTIVO', 115.00, 13.80, 128.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (20, 'TARJETA', 175.00, 21.00, 196.00, TRUE, CURRENT_DATE);
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (21, 'DEPOSITO', 90.00, 10.80, 100.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (22, 'EFECTIVO', 135.00, 16.20, 151.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (23, 'TARJETA', 75.50, 9.06, 84.56, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (24, 'DEPOSITO', 200.00, 24.00, 224.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (25, 'EFECTIVO', 65.00, 7.80, 72.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (26, 'TARJETA', 155.00, 18.60, 173.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (27, 'DEPOSITO', 80.00, 9.60, 89.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (28, 'EFECTIVO', 120.00, 14.40, 134.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (29, 'TARJETA', 95.00, 11.40, 106.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (30, 'DEPOSITO', 180.00, 21.60, 201.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (31, 'EFECTIVO', 70.00, 8.40, 78.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (32, 'TARJETA', 145.00, 17.40, 162.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (33, 'DEPOSITO', 60.00, 7.20, 67.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (34, 'EFECTIVO', 200.00, 24.00, 224.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (35, 'TARJETA', 85.00, 10.20, 95.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (36, 'DEPOSITO', 140.00, 16.80, 156.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (37, 'EFECTIVO', 100.00, 12.00, 112.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (38, 'TARJETA', 175.00, 21.00, 196.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (39, 'DEPOSITO', 95.00, 11.40, 106.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (40, 'EFECTIVO', 150.00, 18.00, 168.00, TRUE, CURRENT_DATE);
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (41, 'TARJETA', 110.00, 13.20, 123.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (42, 'DEPOSITO', 95.00, 11.40, 106.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (43, 'EFECTIVO', 150.00, 18.00, 168.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (44, 'TARJETA', 80.00, 9.60, 89.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (45, 'DEPOSITO', 125.00, 15.00, 140.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (46, 'EFECTIVO', 70.00, 8.40, 78.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (47, 'TARJETA', 200.00, 24.00, 224.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (48, 'DEPOSITO', 85.00, 10.20, 95.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (49, 'EFECTIVO', 140.00, 16.80, 156.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (50, 'TARJETA', 60.00, 7.20, 67.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (51, 'DEPOSITO', 175.00, 21.00, 196.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (52, 'EFECTIVO', 90.00, 10.80, 100.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (53, 'TARJETA', 130.00, 15.60, 145.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (54, 'DEPOSITO', 200.00, 24.00, 224.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (55, 'EFECTIVO', 75.00, 9.00, 84.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (56, 'TARJETA', 160.00, 19.20, 179.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (57, 'DEPOSITO', 100.00, 12.00, 112.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (58, 'EFECTIVO', 145.00, 17.40, 162.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (59, 'TARJETA', 85.00, 10.20, 95.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (60, 'DEPOSITO', 120.00, 14.40, 134.40, TRUE, CURRENT_DATE);
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (61, 'EFECTIVO', 95.00, 11.40, 106.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (62, 'TARJETA', 140.00, 16.80, 156.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (63, 'DEPOSITO', 75.00, 9.00, 84.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (64, 'EFECTIVO', 200.00, 24.00, 224.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (65, 'TARJETA', 85.00, 10.20, 95.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (66, 'DEPOSITO', 160.00, 19.20, 179.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (67, 'EFECTIVO', 100.00, 12.00, 112.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (68, 'TARJETA', 145.00, 17.40, 162.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (69, 'DEPOSITO', 90.00, 10.80, 100.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (70, 'EFECTIVO', 120.00, 14.40, 134.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (71, 'TARJETA', 75.00, 9.00, 84.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (72, 'DEPOSITO', 135.00, 16.20, 151.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (73, 'EFECTIVO', 60.00, 7.20, 67.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (74, 'TARJETA', 200.00, 24.00, 224.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (75, 'DEPOSITO', 95.00, 11.40, 106.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (76, 'EFECTIVO', 150.00, 18.00, 168.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (77, 'TARJETA', 80.00, 9.60, 89.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (78, 'DEPOSITO', 125.00, 15.00, 140.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (79, 'EFECTIVO', 70.00, 8.40, 78.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (80, 'TARJETA', 175.00, 21.00, 196.00, TRUE, CURRENT_DATE);
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (81, 'DEPOSITO', 95.00, 11.40, 106.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (82, 'EFECTIVO', 150.00, 18.00, 168.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (83, 'TARJETA', 80.00, 9.60, 89.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (84, 'DEPOSITO', 125.00, 15.00, 140.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (85, 'EFECTIVO', 70.00, 8.40, 78.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (86, 'TARJETA', 200.00, 24.00, 224.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (87, 'DEPOSITO', 85.00, 10.20, 95.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (88, 'EFECTIVO', 140.00, 16.80, 156.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (89, 'TARJETA', 60.00, 7.20, 67.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (90, 'DEPOSITO', 175.00, 21.00, 196.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (91, 'EFECTIVO', 90.00, 10.80, 100.80, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (92, 'TARJETA', 130.00, 15.60, 145.60, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (93, 'DEPOSITO', 200.00, 24.00, 224.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (94, 'EFECTIVO', 75.00, 9.00, 84.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (95, 'TARJETA', 160.00, 19.20, 179.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (96, 'DEPOSITO', 100.00, 12.00, 112.00, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (97, 'EFECTIVO', 145.00, 17.40, 162.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (98, 'TARJETA', 85.00, 10.20, 95.20, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (99, 'DEPOSITO', 120.00, 14.40, 134.40, TRUE, CURRENT_DATE);
+
+INSERT INTO avite.factura (id_cliente, metodo_pago, subtotal, impuesto, total, activo, fecha_registro)
+VALUES (100, 'EFECTIVO', 180.00, 21.60, 201.60, TRUE, CURRENT_DATE);
+
+
+--insert detalle factura 
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (1, 1, 3, 25.50, 76.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (2, 2, 2, 22.30, 44.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (3, 3, 5, 12.90, 64.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (4, 4, 1, 8.50, 8.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (5, 5, 4, 5.75, 23.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (6, 6, 2, 14.20, 28.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (7, 7, 6, 18.40, 110.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (8, 8, 3, 9.90, 29.70, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (9, 9, 1, 35.00, 35.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (10, 10, 2, 15.60, 31.20, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (11, 11, 5, 27.80, 139.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (12, 12, 3, 24.10, 72.30, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (13, 13, 7, 4.50, 31.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (14, 14, 2, 7.80, 15.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (15, 15, 4, 11.20, 44.80, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (16, 16, 3, 19.90, 59.70, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (17, 17, 2, 21.50, 43.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (18, 18, 1, 32.00, 32.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (19, 19, 6, 26.70, 160.20, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (20, 20, 2, 23.40, 46.80, TRUE, CURRENT_TIMESTAMP);
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (21, 21, 2, 24.60, 49.20, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (22, 22, 4, 28.40, 113.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (23, 23, 3, 6.90, 20.70, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (24, 24, 5, 13.50, 67.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (25, 25, 2, 17.80, 35.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (26, 26, 6, 15.20, 91.20, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (27, 27, 1, 28.00, 28.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (28, 28, 3, 30.50, 91.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (29, 29, 2, 26.40, 52.80, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (30, 30, 4, 9.20, 36.80, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (31, 31, 2, 12.00, 24.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (32, 32, 5, 10.80, 54.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (33, 33, 3, 20.00, 60.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (34, 34, 2, 23.70, 47.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (35, 35, 1, 45.00, 45.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (36, 36, 3, 27.90, 83.70, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (37, 37, 4, 33.20, 132.80, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (38, 38, 2, 7.50, 15.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (39, 39, 6, 12.40, 74.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (40, 40, 2, 18.90, 37.80, TRUE, CURRENT_TIMESTAMP);
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (41, 41, 3, 29.80, 89.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (42, 42, 2, 25.60, 51.20, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (43, 43, 4, 6.40, 25.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (44, 44, 5, 14.30, 71.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (45, 45, 2, 22.50, 45.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (46, 46, 3, 12.90, 38.70, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (47, 47, 1, 40.00, 40.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (48, 48, 2, 31.20, 62.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (49, 49, 4, 28.90, 115.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (50, 50, 3, 5.90, 17.70, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (51, 51, 2, 9.80, 19.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (52, 52, 5, 11.70, 58.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (53, 53, 3, 16.40, 49.20, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (54, 54, 2, 19.50, 39.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (55, 55, 1, 38.00, 38.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (56, 56, 4, 29.40, 117.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (57, 57, 2, 27.20, 54.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (58, 58, 6, 4.80, 28.80, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (59, 59, 3, 13.20, 39.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (60, 60, 2, 17.90, 35.80, TRUE, CURRENT_TIMESTAMP);
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (61, 61, 3, 32.40, 97.20, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (62, 62, 2, 27.80, 55.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (63, 63, 4, 6.20, 24.80, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (64, 64, 5, 12.70, 63.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (65, 65, 2, 18.60, 37.20, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (66, 66, 3, 13.40, 40.20, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (67, 67, 1, 26.50, 26.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (68, 68, 2, 30.20, 60.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (69, 69, 4, 25.90, 103.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (70, 70, 3, 4.70, 14.10, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (71, 71, 2, 10.50, 21.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (72, 72, 5, 14.10, 70.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (73, 73, 3, 16.80, 50.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (74, 74, 2, 22.90, 45.80, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (75, 75, 1, 55.00, 55.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (76, 76, 4, 34.20, 136.80, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (77, 77, 2, 26.30, 52.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (78, 78, 6, 5.20, 31.20, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (79, 79, 3, 13.80, 41.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (80, 80, 2, 17.40, 34.80, TRUE, CURRENT_TIMESTAMP);
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (81, 81, 3, 33.50, 100.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (82, 82, 2, 28.40, 56.80, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (83, 83, 4, 8.20, 32.80, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (84, 84, 5, 12.90, 64.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (85, 85, 2, 21.70, 43.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (86, 86, 3, 16.80, 50.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (87, 87, 1, 60.00, 60.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (88, 88, 2, 35.20, 70.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (89, 89, 4, 29.40, 117.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (90, 90, 3, 12.50, 37.50, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (91, 91, 2, 11.20, 22.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (92, 92, 5, 13.40, 67.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (93, 93, 3, 19.60, 58.80, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (94, 94, 2, 20.90, 41.80, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (95, 95, 1, 30.00, 30.00, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (96, 96, 4, 32.10, 128.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (97, 97, 2, 28.70, 57.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (98, 98, 6, 6.90, 41.40, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (99, 99, 3, 15.20, 45.60, TRUE, CURRENT_TIMESTAMP);
+
+INSERT INTO avite.detalle_Factura (id_factura, id_producto, cantidad, precio_unitario, subtotal_linea, activo, creado_en)
+VALUES (100, 100, 2, 20.40, 40.80, TRUE, CURRENT_TIMESTAMP);
 
