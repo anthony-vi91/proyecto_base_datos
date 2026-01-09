@@ -1,1 +1,114 @@
+--realizar selects
+
+--1) Top 5 clientes por gasto total (solo facturas activas)
+--Enunciado:
+--La tienda quiere reconocer a los 5 clientes que más han gastado. Usa un CTE para calcular el total gastado por cliente (facturas con activo = TRUE) y muestra nombre, email y total gastado, ordenado de mayor a menor.
+WITH gasto_cliente AS (
+    SELECT 
+        c.id_cliente,
+        c.nombre,
+        c.email,
+        SUM(f.total) AS total_gastado
+    FROM avite.clientes c
+    JOIN avite.factura f ON c.id_cliente = f.id_cliente
+    WHERE f.activo = TRUE
+    GROUP BY c.id_cliente, c.nombre, c.email
+)
+SELECT nombre, email, total_gastado
+FROM gasto_cliente
+ORDER BY total_gastado DESC
+LIMIT 5;
+
+--2) Productos más vendidos: cantidad, monto y ranking con ventana
+--Enunciado:
+--Gerencia quiere conocer los productos más vendidos y los que más ingresos generan. Para cada producto, calcula la cantidad total vendida y el monto total (sumando subtotal_linea) considerando facturas y detalles activos. Agrega ranking por cantidad y por monto con funciones de ventana.
+WITH ventas_producto AS (
+    SELECT 
+        p.id_producto,
+        p.nombre,
+        SUM(df.cantidad) AS total_cantidad,
+        SUM(df.subtotal_linea) AS total_monto
+    FROM avite.productos p
+    JOIN avite.detalle_factura df ON p.id_producto = df.id_producto
+    JOIN avite.factura f ON df.id_factura = f.id_factura
+    WHERE f.activo = TRUE AND df.activo = TRUE
+    GROUP BY p.id_producto, p.nombre
+)
+SELECT 
+    nombre,
+    total_cantidad,
+    total_monto,
+    RANK() OVER (ORDER BY total_cantidad DESC) AS ranking_cantidad,
+    RANK() OVER (ORDER BY total_monto DESC) AS ranking_monto
+FROM ventas_producto
+ORDER BY total_cantidad DESC;
+
+--3) Agenda clínica: citas próximas por especie de mascota
+--Enunciado:
+--La clínica quiere ver las próximas citas (desde hoy y siguientes), mostrando la mascota, su especie, el cliente y el motivo. Agrupa por especie y ordena por fecha y hora.
+SELECT 
+    m.nombre AS mascota,
+    m.especie,
+    c.nombre AS cliente,
+    ci.motivo,
+    DATE(ci.fecha_cita) AS fecha,
+    TO_CHAR(ci.fecha_cita, 'HH24:MI') AS hora
+FROM avite.citas ci
+JOIN avite.mascotas m ON ci.id_mascota = m.id_mascota
+JOIN avite.clientes c ON m.id_cliente = c.id_cliente
+WHERE ci.fecha_cita >= CURRENT_TIMESTAMP
+  AND ci.activo = TRUE
+ORDER BY m.especie, ci.fecha_cita;
+
+--4) Ingresos por categoría de producto y participación (%)
+--Enunciado:
+--Marketing necesita saber qué categorías aportan más ingresos. Calcula el ingreso total por categoría (sumando detalle_Factura.subtotal_linea) y la participación porcentual sobre el total, considerando productos, facturas y detalles activos.
+WITH ingresos_categoria AS (
+    SELECT 
+        p.categoria,
+        SUM(df.subtotal_linea) AS ingreso_categoria
+    FROM avite.productos p
+    JOIN avite.detalle_factura df ON p.id_producto = df.id_producto
+    JOIN avite.factura f ON df.id_factura = f.id_factura
+    WHERE f.activo = TRUE AND df.activo = TRUE
+    GROUP BY p.categoria
+),
+total_ingreso AS (
+    SELECT SUM(ingreso_categoria) AS ingreso_total
+    FROM ingresos_categoria
+)
+SELECT 
+    ic.categoria,
+    ic.ingreso_categoria,
+    ROUND(ic.ingreso_categoria * 100.0 / ti.ingreso_total, 2) AS participacion_porcentual
+FROM ingresos_categoria ic, total_ingreso ti
+ORDER BY ic.ingreso_categoria DESC;
+
+
+--5) Auditoría: facturas donde subtotal + impuesto ≠ total o detalle no cuadra
+--Enunciado:
+--Contabilidad quiere detectar posibles inconsistencias: (a) facturas cuyo subtotal + impuesto no coincide con total, y (b) facturas donde la suma de detalle_Factura.subtotal_linea no coincide con el subtotal de la factura. Muestra ambas verificaciones y la diferencia.
+
+-- (a) Subtotal + impuesto ≠ total
+SELECT 
+    id_factura,
+    subtotal,
+    impuesto,
+    total,
+    (subtotal + impuesto) - total AS diferencia
+FROM avite.factura
+WHERE activo = TRUE
+  AND (subtotal + impuesto) <> total;
+
+-- (b) Suma de detalle ≠ subtotal de factura
+SELECT 
+    f.id_factura,
+    f.subtotal AS subtotal_factura,
+    SUM(df.subtotal_linea) AS subtotal_detalle,
+    (SUM(df.subtotal_linea) - f.subtotal) AS diferencia
+FROM avite.factura f
+JOIN avite.detalle_factura df ON f.id_factura = df.id_factura
+WHERE f.activo = TRUE AND df.activo = TRUE
+GROUP BY f.id_factura, f.subtotal
+HAVING SUM(df.subtotal_linea) <> f.subtotal;
 
